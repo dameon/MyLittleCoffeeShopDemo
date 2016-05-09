@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B5B08EBC1CDE522200BC3767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B08EBB1CDE522200BC3767 /* AppDelegate.swift */; };
-		B5B08EBE1CDE522200BC3767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B08EBD1CDE522200BC3767 /* ViewController.swift */; };
 		B5B08EC11CDE522200BC3767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B08EBF1CDE522200BC3767 /* Main.storyboard */; };
 		B5B08EC31CDE522200BC3767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B08EC21CDE522200BC3767 /* Assets.xcassets */; };
 		B5B08EC61CDE522200BC3767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B08EC41CDE522200BC3767 /* LaunchScreen.storyboard */; };
 		B5B08ED11CDE522200BC3767 /* MyLittleCoffeeShopDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B08ED01CDE522200BC3767 /* MyLittleCoffeeShopDemoTests.swift */; };
 		B5B08EDC1CDE522200BC3767 /* MyLittleCoffeeShopDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B08EDB1CDE522200BC3767 /* MyLittleCoffeeShopDemoUITests.swift */; };
+		B5B08F251CDE5CD500BC3767 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B08F241CDE5CD500BC3767 /* LoginViewController.swift */; };
+		B5B08F281CDE5DA500BC3767 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B08F261CDE5DA500BC3767 /* FBSDKCoreKit.framework */; };
+		B5B08F291CDE5DA500BC3767 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B08F271CDE5DA500BC3767 /* FBSDKLoginKit.framework */; };
+		B5B08F2C1CDE608B00BC3767 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B08F2B1CDE608B00BC3767 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		B5B08EB81CDE522200BC3767 /* MyLittleCoffeeShopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittleCoffeeShopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B08EBB1CDE522200BC3767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5B08EBD1CDE522200BC3767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5B08EC01CDE522200BC3767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B08EC21CDE522200BC3767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B08EC51CDE522200BC3767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,11 @@
 		B5B08ED71CDE522200BC3767 /* MyLittleCoffeeShopDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittleCoffeeShopDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B08EDB1CDE522200BC3767 /* MyLittleCoffeeShopDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleCoffeeShopDemoUITests.swift; sourceTree = "<group>"; };
 		B5B08EDD1CDE522200BC3767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B08F231CDE592400BC3767 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		B5B08F241CDE5CD500BC3767 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B5B08F261CDE5DA500BC3767 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		B5B08F271CDE5DA500BC3767 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B5B08F2B1CDE608B00BC3767 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B08F291CDE5DA500BC3767 /* FBSDKLoginKit.framework in Frameworks */,
+				B5B08F281CDE5DA500BC3767 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +106,15 @@
 		B5B08EBA1CDE522200BC3767 /* MyLittleCoffeeShopDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B5B08F2A1CDE5DB200BC3767 /* Frameworks */,
 				B5B08EBB1CDE522200BC3767 /* AppDelegate.swift */,
-				B5B08EBD1CDE522200BC3767 /* ViewController.swift */,
+				B5B08F241CDE5CD500BC3767 /* LoginViewController.swift */,
 				B5B08EBF1CDE522200BC3767 /* Main.storyboard */,
+				B5B08F2B1CDE608B00BC3767 /* MainViewController.swift */,
 				B5B08EC21CDE522200BC3767 /* Assets.xcassets */,
 				B5B08EC41CDE522200BC3767 /* LaunchScreen.storyboard */,
 				B5B08EC71CDE522200BC3767 /* Info.plist */,
+				B5B08F231CDE592400BC3767 /* Bridging-Header.h */,
 			);
 			path = MyLittleCoffeeShopDemo;
 			sourceTree = "<group>";
@@ -123,6 +135,15 @@
 				B5B08EDD1CDE522200BC3767 /* Info.plist */,
 			);
 			path = MyLittleCoffeeShopDemoUITests;
+			sourceTree = "<group>";
+		};
+		B5B08F2A1CDE5DB200BC3767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B08F261CDE5DA500BC3767 /* FBSDKCoreKit.framework */,
+				B5B08F271CDE5DA500BC3767 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B08EBE1CDE522200BC3767 /* ViewController.swift in Sources */,
+				B5B08F2C1CDE608B00BC3767 /* MainViewController.swift in Sources */,
+				B5B08F251CDE5CD500BC3767 /* LoginViewController.swift in Sources */,
 				B5B08EBC1CDE522200BC3767 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,10 +423,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyLittleCoffeeShopDemo",
+				);
 				INFOPLIST_FILE = MyLittleCoffeeShopDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dameonbryant.MyLittleCoffeeShopDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyLittleCoffeeShopDemo/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -412,10 +440,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyLittleCoffeeShopDemo",
+				);
 				INFOPLIST_FILE = MyLittleCoffeeShopDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dameonbryant.MyLittleCoffeeShopDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyLittleCoffeeShopDemo/Bridging-Header.h";
 			};
 			name = Release;
 		};
